@@ -23,4 +23,12 @@ export default class Truck extends Car {
     this.gasCapacity = gas;
   }
 
+  get wheels() {
+    return this.numWheels;
+  }
+
+  set wheels( wheels) {
+    this.numWheels = wheels;
+  }
+
 }
